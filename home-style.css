@@ -127,13 +127,15 @@ a {
 }
 
 .logotexts-part {
-    user-select: none;
-    padding: .3rem 0;
-    font-size: 0;
     position: relative;
+    padding: .5rem;
+    user-select: none;
+    font-size: 0;
     width: 100%;
     text-align: center;
-
+    left: 50%;
+    -ms-transform: translate( -50%);
+    transform: translate( -50% );
 }
 
 
