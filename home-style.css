@@ -176,10 +176,11 @@ a {
 }
 
 .navbar-li{
+    display: block;
     position: relative;
     list-style-type: none;
     padding: 1% 2.2%;
-    margin: 2%;
+    margin: 3%;
 
 }
 
@@ -188,7 +189,6 @@ a {
     display: inline-block;
     vertical-align: middle;
     text-decoration: none;
-    margin-top: -1rem;
     color: white;
     margin-left: .7rem;
     font-family: 'Alegreya';
