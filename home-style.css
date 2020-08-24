@@ -170,8 +170,6 @@ a {
     display: inline-block;
     position: relative;
     width: auto;
-    left: 7%;
-
 }
 
 .navbar-ul{
@@ -179,7 +177,6 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
 }
 
 .navbar-li{
