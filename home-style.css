@@ -173,7 +173,7 @@ a {
 
 .navbar-ul{
     position: relative;
-    left: 20%;
+    left: 10vmin;
     display: flex;
     flex-direction: row;
     align-items: center;
