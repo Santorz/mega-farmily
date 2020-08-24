@@ -166,10 +166,11 @@ a {
 }
 
 .space-for-links-on-navbar{
+    position: relative;
     display: inline-block;
     position: relative;
-    width: fit-content;
-    left: 10vmin;
+    width: auto;
+    left: 7%;
 
 }
 
