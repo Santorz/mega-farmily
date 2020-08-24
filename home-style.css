@@ -361,7 +361,7 @@ a {
     text-transform: capitalize;
     font-size: 2.7rem;
     padding: .5rem .1rem;
-    background-color: #000000e1;
+    background-color: #000000d8;
     border: groove silver .25rem;
     border-radius: .5rem;
     letter-spacing: .35rem;
@@ -382,6 +382,7 @@ a {
 }
 
 .space-for-login-and-signup-buttons-on-bg-video a{
+    display: block;
     color:white;
     position: relative;
     padding: .5rem .25rem;
@@ -392,7 +393,7 @@ a {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.1);
     margin: 1rem;
-    box-shadow: 0 0 .1rem .1rem rgba(240, 240, 240, 0.7);
+    box-shadow: 0 0 .14rem .14rem rgba(79, 184, 111, 0.7);
     width: 50%;
     border-radius: .35rem;
 
@@ -415,10 +416,18 @@ a {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(241, 241, 241, 0.4));
+    background: linear-gradient(90deg, transparent, rgba(241, 241, 241, 0.55));
     transition: 0.5s;
 }
 
 .space-for-login-and-signup-buttons-on-bg-video a:hover::after{
     left: 100%;
 }
+
+.space-for-login-and-signup-buttons-on-bg-video a span{
+    position: absolute;
+    display: block;
+    transition: 0.5s ease;
+}
+
+
