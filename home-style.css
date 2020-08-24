@@ -169,11 +169,12 @@ a {
     display: inline-block;
     position: relative;
     width: fit-content;
+    left: 10vmin;
+
 }
 
 .navbar-ul{
     position: relative;
-    left: 10vmin;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,6 +201,7 @@ a {
     font-size: 1.25rem;
     font-weight: bolder;
     user-select: none;
+    letter-spacing: 1.3px;
 }
 
 .navbar-li>a:hover{
