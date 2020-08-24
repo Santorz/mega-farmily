@@ -217,7 +217,7 @@ a {
 .navbar-li:hover .navbar-subcontent{
     display: block;
     position: absolute;
-    right:0;
+    left:10%;
     background-color: rgb(255, 255, 255); 
     transition: ease-in .3s;
     border-radius: .2rem;
@@ -239,7 +239,7 @@ a {
     margin: .777rem;
     text-align: justify;
     font-family: 'Alegreya';
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: bolder;
     user-select: none;
     margin-left: 0;
