@@ -407,6 +407,11 @@ a {
 
 }
 
+.space-for-login-and-signup-buttons-on-bg-video a:hover{
+    box-shadow: 0 0 .4rem .4rem rgba(79, 184, 111, 0.7);
+
+}
+
 .space-for-login-and-signup-buttons-on-bg-video a::before{
     position: absolute;
     content: '';
