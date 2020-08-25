@@ -188,7 +188,6 @@ a {
 }
 
 .space-for-links-on-navbar{
-    position: relative;
     display: inline-block;
     position: relative;
     width: 70vw;
@@ -392,16 +391,17 @@ a {
     display: block;
     color:white;
     position: relative;
-    padding: .5rem .25rem;
+    padding: .95rem .4rem;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
     font-family: 'B612';
     letter-spacing: .15rem;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.1);
     margin: 1rem;
     box-shadow: 0 0 .14rem .14rem rgba(79, 184, 111, 0.7);
-    width: 50%;
+    width: 57%;
     border-radius: .35rem;
     border: solid .005rem white;
 
