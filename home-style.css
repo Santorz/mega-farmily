@@ -376,6 +376,7 @@ a {
     border: groove silver .25rem;
     border-radius: .5rem;
     letter-spacing: .2rem;
+    width: 500px;
 }
 
 .space-for-login-and-signup-buttons-on-bg-video{
