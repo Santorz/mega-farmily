@@ -140,6 +140,7 @@ a {
 .logo-and-brand-name-part {
     display: inline-block;
     position: relative;
+    left: 5%;
 }
 
 .logotexts-part {
