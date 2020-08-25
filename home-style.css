@@ -181,6 +181,12 @@ a {
     -webkit-text-stroke-width: .035rem
 }
 
+.normal-logotext, .emphasized-logotext, .normal-logotext-2{
+    top: 50%;
+    transform: translate( -50% );
+
+}
+
 .space-for-links-on-navbar{
     position: relative;
     display: inline-block;
