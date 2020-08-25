@@ -193,6 +193,8 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    right: -1vw;
+    top: 0;
 }
 
 .navbar-li{
@@ -396,6 +398,7 @@ a {
     box-shadow: 0 0 .14rem .14rem rgba(79, 184, 111, 0.7);
     width: 50%;
     border-radius: .35rem;
+    border: solid .005rem white;
 
 }
 
