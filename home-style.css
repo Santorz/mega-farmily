@@ -223,7 +223,7 @@ a {
     font-size: 1.25rem;
     font-weight: bolder;
     user-select: none;
-    letter-spacing: 1.3px;
+    letter-spacing: 2.3px;
 }
 
 .navbar-li>a:hover{
@@ -263,11 +263,13 @@ a {
     margin: .777rem;
     text-align: justify;
     font-family: 'Alegreya';
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     font-weight: bolder;
     user-select: none;
     margin-left: 0;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+
 
 }
 
