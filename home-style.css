@@ -190,7 +190,8 @@ a {
 .space-for-links-on-navbar{
     display: inline-block;
     position: relative;
-    width: 70vw;
+    width: 770px;
+    left: 190px;
 }
 
 .navbar-ul{
