@@ -401,6 +401,7 @@ a {
 }
 
 .space-for-login-and-signup-buttons-on-bg-video a{
+    user-select: none;
     display: block;
     color:white;
     position: relative;
