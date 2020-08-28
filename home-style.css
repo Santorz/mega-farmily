@@ -464,43 +464,41 @@ a {
 
 
 /* MEDIA QUERIES TIME!! */
-@media (pointer:coarse),(hover:none),(hover:on-demand) 
-{
-
+@media screen and (min-width:400px) and (max-width:800px) {
 
     body{
         overflow-x: hidden;
         width: 100vw;
     }
-
+    
     .top-part{
         width: 100%;
     }
-
+    
     .navbar{
         width: 100%;
     }
-
+    
     .logo-and-brand-name-part{
         left: 0;
     }
-
+    
     .logotexts-part{
         padding: .25rem;
     }
-
+    
     .normal-logotext, .emphasized-logotext, .normal-logotext-2{
         font-size:2.75rem;
     }
-
+    
     .space-for-links-on-navbar{
         display: none;
     }
-
+    
     .bg-video-with-text{
         height: 50rem;
     }
-
+    
     .bg-video-with-text::before{
         height: 50%;
         width: 100%;
@@ -509,7 +507,7 @@ a {
         left: 0;
         right: 0;
     }
-
+    
     .bg-video-with-text::after{
         top: unset;
         height: 50%;
@@ -518,20 +516,20 @@ a {
         right: 0;
         left: 0;
     }
-
+    
     .space-for-small-text-on-bg-video{
         top: 0;
         height: 50%;
         width: 100%;
-
+        
     }
-
+    
     .small-text-on-bg-video{
         font-size: 2.5rem;
         padding: 1.5rem 1rem;
         width: 25rem;
     }
-
+    
     .space-for-login-and-signup-buttons-on-bg-video{
         top: unset;
         bottom: 0;
