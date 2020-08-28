@@ -464,7 +464,7 @@ a {
 
 
 /* MEDIA QUERIES TIME!! */
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:400px) and (max-width:800px){
 
 body{
     overflow-x: hidden;
@@ -536,6 +536,8 @@ body{
     width: 100%;
     height: 50%;
 }
+
+
 
 
 }
