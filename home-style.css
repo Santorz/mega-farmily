@@ -464,7 +464,11 @@ a {
 
 
 /* MEDIA QUERIES TIME!! */
-@media screen and (max-width:800px) {
+@media screen and (max-width:767px) {
+
+    html{
+        overflow-x: hidden;
+    }
 
     body{
         overflow-x: hidden;
@@ -488,7 +492,7 @@ a {
     }
     
     .normal-logotext, .emphasized-logotext, .normal-logotext-2{
-        font-size:2.75rem;
+        font-size:2rem;
     }
     
     .space-for-links-on-navbar{
@@ -527,7 +531,7 @@ a {
     .small-text-on-bg-video{
         font-size: 2.5rem;
         padding: 1.5rem 1rem;
-        width: 25rem;
+        width: 20rem;
     }
     
     .space-for-login-and-signup-buttons-on-bg-video{
@@ -537,7 +541,10 @@ a {
         height: 50%;
     }
 
-
+    .space-for-login-and-signup-buttons-on-bg-video a{
+        width: 80%;
+        font-size: 100%;
+    }
 
 
 }
