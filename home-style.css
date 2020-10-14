@@ -419,7 +419,7 @@ a {
     border-radius: .35rem;
     border: solid .005rem white;
     backdrop-filter: blur(7px);
-
+    cursor: pointer;
 
 }
 
